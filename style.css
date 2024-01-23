@@ -1,0 +1,81 @@
+html {
+    border: 5px solid lightgray;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    min-height: 100%;
+    font-family: sans-serif;
+    max-width: 1000px;
+
+}
+
+header, main,main,footer {
+   margin: 1rem 2rem 1rem 2rem;
+}
+
+h1 {
+    color: tomato;
+    font-weight: 100;
+    font-size: 3rem;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 2px;
+}
+h2 {
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-weight: 200;
+    color: lightgray;
+    padding: 0%;
+    margin-bottom: -1rem;
+}
+
+img {
+    width: 100% ;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+a {
+    color: lightgray;
+}
+
+footer a {
+    color: tomato;
+    text-decoration: none;
+}
+
+.blog {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    padding-bottom: 2rem;
+}
+
+.blog a {
+    color: tomato;
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+}
+
+.blog p::first-letter {
+    color: lightgray;
+    font-size: 4rem;
+    float: left;
+    padding-right: 10px;
+
+}
+footer p {
+    color: lightgray;
+}
